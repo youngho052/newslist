@@ -1,11 +1,13 @@
-import React from 'react';
-import {} from ""
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function Routes(props) {
+function Routes() {
   return (
-    <div>
-      
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={} />
+      </Switch>
+    </Router>
   );
 }
 
